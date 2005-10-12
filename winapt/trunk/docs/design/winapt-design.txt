@@ -1,0 +1,67 @@
+Winapt (codenamed "Icehamster") Design Notes
+--------------------------------------------
+
+The Mission:
+------------
+
+1. Write a tool for developers to create re-usable MS-Windows packages. (a la
+.rpm or .deb.)
+
+2. Write a tool that will allow users to install these packages on their 
+computers. 
+
+3. Write a tool that will allow users to install or uninstall packages
+from the Net or from Media, along with all of their dependencies. 
+(a la apt/urpmi/yum)
+
+4. Write a hosting backend management for hosting such packages on remote
+servers.
+
+Technologies that will be used:
+-------------------------------
+
+1. Perl - http://www.perl.org/ - writing package management and build systems
+in C is widely considered a bad idea. (dpkg/apt and rpm are written in C
+because they are expected to run on an embedded device in the electricity
+cabinet of the ladies restroom in a gas station in Albuquerque.) On a standard
+Win32 system we can easily install the Perl run-time without worrying too
+much about bloating the system, so there's no reason why we shouldn't use it.
+
+    Why not a different language?
+    -----------------------------
+
+    1. I know and like Perl the best, and so I'm going to use what I like.
+
+    2. I think it would be very suitable for this.
+
+    3. There are plenty of good and useful modules in CPAN.
+
+    4. Many programmers know Perl enough to contribute.
+    
+    5. If you don't like it, write an alterantive with a different 
+    language. :-)
+    
+2. PAR - http://par.perl.org/ - this will allow us to prepare self-contained
+packages of Winapt.
+
+Desired Features of the Advanced Version:
+-----------------------------------------
+
+(in no particular order)
+
+* Handle installation per-user and global installation.
+
+* Manage registry keys.
+
+* Have the ability to track several major versions of the same program and 
+install them all at once.
+
+* Seemless upgrade of packages.
+
+* Install new packages easily.
+
+* Resolve dependencies.
+
+* No (!!) file dependencies.
+
+
