@@ -44,8 +44,8 @@ much about bloating the system, so there's no reason why we shouldn't use it.
 2. PAR - http://par.perl.org/ - this will allow us to prepare self-contained
 packages of Winapt.
 
-Desired Features of the Advanced Version:
------------------------------------------
+Desired Features of the t->\infinity Version:
+-------------------------------------------
 
 (in no particular order)
 
@@ -63,5 +63,48 @@ install them all at once.
 * Resolve dependencies.
 
 * No (!!) file dependencies.
+
+* Be able to fetch using FTP, HTTP, Bit-Torrent, etc. Use libwww-perl (LWP) or 
+whatever.
+
+* Support authentication and authorization. (client side and server side).
+
+* Handle installation scripts in Perl, CMD.EXE, cygwin/MSys bash/zsh (requires
+installation of the latter), and possibly other languages by inflection 
+(i.e: extract the scripts and use perl to invoke them. Requires their 
+installation)
+
+* Would provide Perl modules to facilitate the installation. Some configuration
+files can be written in YAML or XML, and be processed by the Perl script to 
+perform robust installation/uninstallation.
+
+* Internationalization and Localization support.
+
+* Support only Win2000, WinXP, Win2003 (and possibly Windows Vista). Win98 is 
+too Evil to support properly, and WinME even more so. It may or may not work 
+on the Win95/98/ME line, but we will not actively support it there.
+
+* Portability to UNIXes is not an issue. UNIXes have their own package 
+management schemes, which whatever their failing are more concentrated on 
+UNIX support. Win32 is very different, and we will do things differently, and
+occasionally using the Win32 API.
+
+Pitfalls:
+---------
+
+* How do we handle file/dir permissions on Win32?
+
+* What archive format to use to package the files?
+
+* How do we efficiently clean up the Win32 Registry after populating it.
+
+* Note: I (= Shlomi Fish) while being very proficient in Perl, is by no
+means a Win32 system programming expert. So I could use any help I can get.
+
+* I also need some help in learning about how to run Windows on Linux using
+VMWare, and I need a VMWare license.
+
+* 
+
 
 
