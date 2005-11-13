@@ -36,3 +36,9 @@ $(RSS_FEED): gen-feeds.pl lib/MyManageNews.pm
 upload: all
 	cd $(ALL_DEST_BASE)/mysite && \
 	$(RSYNC) -r * shlomif@shell.berlios.de:/home/groups/winapt/htdocs/
+
+update_svn:
+	for FILE in Icehamster-Executive-Summary.html winapt-design.txt ; do \
+		svn cat http://svn.berlios.de/svnroot/repos/winapt/winapt/trunk/docs/design/"$$FILE" > src/mysite/docs/"$$FILE" ; \
+	done
+
