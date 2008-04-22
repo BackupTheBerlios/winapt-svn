@@ -1,0 +1,31 @@
+Introduction:
+-------------
+
+This is a functional spec for Winapt, which is a package management system
+for Win32, similar to such systems for UNIX-like systems (e.g: Debian's 
+apt-get/dpkg, RedHat's rpm/yum, Mandriva's rpm/urpmi, smart or
+Gentoo's portage).
+
+Scenario 1: "We Want Free Stuff":
+---------------------------------
+
+Millie is a young fox girl who likes to use Windows XP, and still haven't
+gotten around to install Linux. However, she is tired of keeping up with
+the various open-source and non-open-source software she has on her computer:
+Inkscape, eMule, Firefox, Thunderbird, Paint Shop Pro, etc. At one point
+her geek friend Stefan the Aardvark (who is a die-hard Linux user) recommends 
+her to install Winapt, so she can manage her software.
+
+She browses to the winapt site, downloads the installer, accepts the EULA,
+and installs the software. Then she starts the dialog which downloads the
+updated remote-sources lists and then packages lists. It detects which
+software is installed on her computer, and automatically upgrades it. Then
+it gives her a long list of other software.
+
+Millie installs the "Pink Flamingo Bathtub Game", the "Tomboy Tomboy edition"
+note taker, the "Burn ants burn" real-life simulator, and a game to put
+electronic needles on Ayn Rand's face. She goes to sleep happy.
+
+The next day when she wakes up, Winapt informs her that she has updates for
+her software, and allows her to upgrade.
+
