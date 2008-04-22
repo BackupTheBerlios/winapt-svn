@@ -6,6 +6,8 @@ for Win32, similar to such systems for UNIX-like systems (e.g: Debian's
 apt-get/dpkg, RedHat's rpm/yum, Mandriva's rpm/urpmi, smart or
 Gentoo's portage).
 
+(The characters are taken from http://www.ozyandmillie.org/ )
+
 Scenario 1: "We Want Free Stuff"
 --------------------------------
 
@@ -54,3 +56,27 @@ these softwares.
 Stefan and Millie are happy and now have much more time playing 
 "Quake 10: Furry Showdown".
 
+Scenario 3: "I'm not a Technical Sheep! I just want to use my computer."
+------------------------------------------------------------------------
+
+Felicia is popular girl that no one seems to like in the class of Millie and
+Stefan. She's not a geek (of computers or otherwise), and just uses it to
+draw pictures of ponies ("OMG!!! They're so cute") using Inkscape. 
+
+At one point she discovers a way to consistently make Inkscape crash, and
+reports it in the Inkscape bug tracker. The Inkscape developer is Stefan
+who is a die-hard Linux user, and while being able to cross-compile to Windows
+will never run it. What Stefan does to see if his bug-fix helps Felicia
+is:
+
+1. Build a modified package.
+
+2. Upload it to the Inkscape master site under a different "patched" directory.
+
+3. Instruct Felicia to enter the patch ID in a special Inkscape 
+dialog (also possible using the Winapt GUI).
+
+Felicia then installs the patch, see that it works, and tells Stefan about
+it. Stefan is happy and integrates the source patch into the mainline.
+
+Another Inkscape bug was fixed.
