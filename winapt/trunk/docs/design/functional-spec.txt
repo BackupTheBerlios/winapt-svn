@@ -53,7 +53,7 @@ $ winapt-spread --install Inkscape GIMP OnM-Comics-Reader
 This command downloads the programs and connects to all the clients to install
 these softwares.
 
-Stefan and Millie are happy and now have much more time playing 
+Stefan and Millie are happy and now have much more time for playing
 "Quake 10: Furry Showdown".
 
 Scenario 3: "I'm not a Technical Sheep! I just want to use my computer."
