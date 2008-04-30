@@ -60,8 +60,8 @@ Scenario 3: "I'm not a Technical Sheep! I just want to use my computer."
 ------------------------------------------------------------------------
 
 Felicia is popular girl that no one seems to like in the class of Millie and
-Stefan. She's not a geek (of computers or otherwise), and just uses it to
-draw pictures of ponies ("OMG!!! They're so cute") using Inkscape. 
+Stefan. She's not a geek (of computers or otherwise), and just uses her
+computer to draw pictures of ponies ("OMG!!! They're so cute") using Inkscape.
 
 At one point she discovers a way to consistently make Inkscape crash, and
 reports it in the Inkscape bug tracker. The Inkscape developer is Stefan
