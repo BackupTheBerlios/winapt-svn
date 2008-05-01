@@ -29,7 +29,8 @@ note taker, the "Burn ants burn" real-life simulator, and a game to put
 electronic needles on Ayn Rand's face. She goes to sleep happy.
 
 The next day when she wakes up, Winapt informs her that she has updates for
-her software, and gives her the option of selectively upgrading it.
+her installed programs, and gives her the option of selectively 
+upgrading them.
 
 Scenerio 2: "Kids Just Wanna Have Fun"
 --------------------------------------
